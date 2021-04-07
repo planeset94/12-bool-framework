@@ -19,6 +19,9 @@
 }
 .row{
     width: 100%;
+    margin:0 -15px;
+
+
 }
 .row::after{
     content:"";
@@ -146,6 +149,10 @@ Anche questo è poco flessibile  */
 
 /* Dispositivi XS  */
 @media all and (max-width:767px){
+    h1{
+        font-size: 1.5rem;
+    }
+    
 /* colonne 12° */
 
     .col-xs-1{
@@ -224,6 +231,9 @@ Anche questo è poco flessibile  */
 
 /* Dispositivi MD  */
 @media all and (min-width:768px) and (max-width:991px){
+    h1{
+        font-size: 2rem;
+    }
 /* colonne 12° */
 
     .col-md-1{
@@ -302,6 +312,9 @@ Anche questo è poco flessibile  */
 
 /* Dispositivi LG  */
 @media all and (min-width:992px){
+    h1{
+        font-size: 2.5rem;
+    }
 /* colonne 12° */
 
     .col-lg-1{
