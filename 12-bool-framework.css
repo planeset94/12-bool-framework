@@ -123,7 +123,7 @@ width: calc((100%/12) *1);
 
 .list-none{
     list-style: none;
-    display: flex;
+  
 }
 .flex-y-center{
     display: flex;
